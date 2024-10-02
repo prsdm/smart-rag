@@ -8,6 +8,9 @@ import { LoaderComponent } from "@/components/loader";
 import { PanelLeft } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { SiHuggingface } from "react-icons/si";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { BsMedium } from "react-icons/bs";
+import { GiWorld } from "react-icons/gi";
 
 interface Message {
   role: "user" | "bot";
@@ -142,7 +145,21 @@ const ConversationPage: React.FC = () => {
             {isUploading && <LoaderComponent />}
             {docResponse && <p>{docResponse}</p>}
           </form>
-          <h2 className="text mb-4 mt-20">Created by Prasad Mahamulkar</h2>
+          <div className="flex justify-center gap-2 mt-60">
+      <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">
+        <GiWorld className="h-6 w-6" />
+      </a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <FaGithub className="h-6 w-6" />
+      </a>
+      <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer">
+        <BsMedium className="h-6 w-6" />
+      </a>
+      <a href="https://huggingface.co/yourusername" target="_blank" rel="noopener noreferrer">
+        <SiHuggingface className="h-6 w-6" />
+      </a>
+    </div>
+          <div className="text-sm text-center mt-1">Created by Prasad Mahamulkar</div>
         </aside>
       )}
 
@@ -160,7 +177,7 @@ const ConversationPage: React.FC = () => {
       {/* Header content*/}
       <main className={`flex-1 p-4 max-w-3xl mx-auto flex flex-col ${isSidebarOpen ? "ml-64" : ""}`}>
         <header className="p-1 w-full mx-auto">
-          <h1 className="text-2xl font-bold text-center">SmartRAG</h1>
+          <h1 className="text-2xl font-bold text-center">Smart RAG</h1>
           <div className="absolute right-4 top-4 flex gap-4">
             <a
               href="https://github.com/yourusername"
