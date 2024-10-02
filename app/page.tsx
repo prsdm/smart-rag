@@ -114,7 +114,7 @@ const ConversationPage: React.FC = () => {
           >
             <PanelLeft />
           </button>
-          <div className="flex text-lg font-bold mt-10 mb-4">
+          <div className="flex text-lg font-bold mt-2 mb-4">
           Website
           </div>
           <form
@@ -145,17 +145,17 @@ const ConversationPage: React.FC = () => {
             {isUploading && <LoaderComponent />}
             {docResponse && <p>{docResponse}</p>}
           </form>
-          <div className="flex justify-center gap-2 mt-60">
-      <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">
+          <div className="flex justify-center gap-2 mt-40">
+      <a href="https://prsdm.github.io/" target="_blank" rel="noopener noreferrer">
         <GiWorld className="h-6 w-6" />
       </a>
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/prsdm" target="_blank" rel="noopener noreferrer">
         <FaGithub className="h-6 w-6" />
       </a>
-      <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://medium.com/@prasadmahamulkar" target="_blank" rel="noopener noreferrer">
         <BsMedium className="h-6 w-6" />
       </a>
-      <a href="https://huggingface.co/yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://huggingface.co/prsdm" target="_blank" rel="noopener noreferrer">
         <SiHuggingface className="h-6 w-6" />
       </a>
     </div>
@@ -180,20 +180,12 @@ const ConversationPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-center">Smart RAG</h1>
           <div className="absolute right-4 top-4 flex gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/prsdm/smart-rag-fastapi"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
             >
               <FaGithub className="h-6 w-6 text-black" />
-            </a>
-            <a
-              href="https://huggingface.co/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center"
-            >
-              <SiHuggingface className="h-6 w-6 text-black" />
             </a>
           </div>
         </header>
