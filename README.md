@@ -1,0 +1,2 @@
+# SmartRAG (Next.js + FastAPI)
+
