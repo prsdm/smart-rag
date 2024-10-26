@@ -107,7 +107,7 @@ const ConversationPage: React.FC = () => {
       
       {/* Sidebar */}
       {isSidebarOpen && (
-        <aside className="relative w-1/4 p-4 border-r bg-muted h-full">
+        <aside className={`fixed sm:relative top-0 left-0 w-full sm:w-1/4 h-full p-4 bg-muted border-r sm:static z-20 transition-transform transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
           <button
             onClick={() => setIsSidebarOpen(false)}
             className="absolute top-4 right-4 p-2 text-blue-500 bg-white rounded-full"
@@ -186,7 +186,7 @@ const ConversationPage: React.FC = () => {
               className="flex items-center"
             >
               <FaGithub className="h-6 w-6 text-black" />
-            </a>
+            </a> 
           </div>
         </header>
 
