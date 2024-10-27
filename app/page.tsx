@@ -177,7 +177,7 @@ const ConversationPage: React.FC = () => {
       {/* Header content*/}
       <main className={`flex-1 p-4 max-w-3xl mx-auto flex flex-col ${isSidebarOpen ? "ml-64" : ""}`}>
         <header className="p-1 w-full mx-auto">
-          <h1 className="text-2xl font-bold text-center">Smart RAG</h1>
+          <h1 className="text-2xl font-bold text-center">SmartRAG</h1>
           <div className="absolute right-4 top-4 flex gap-4">
             <a
               href="https://github.com/prsdm/smart-rag-fastapi"
