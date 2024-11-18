@@ -180,7 +180,7 @@ const ConversationPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-center">SmartRAG</h1>
           <div className="absolute right-4 top-4 flex gap-4">
             <a
-              href="https://github.com/prsdm/smart-rag-fastapi"
+              href="https://github.com/prsdm/smart-rag"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
