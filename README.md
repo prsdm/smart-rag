@@ -1,7 +1,7 @@
 # SmartRAG 
 **SmartRAG** is a simple and powerful tool that lets you interact with both website URLs and document files in one place. It’s built using the [Next.js FastAPI Starter](https://vercel.com/templates/next.js/nextjs-fastapi-starter), a boilerplate that combines **Next.js** with **FastAPI** for a seamless hybrid architecture.
 
-The best feature of **SmartRAG** is that you can interact with both **website URL** and **Document** simultaneously, as demonstrated in the following demo:
+The best feature of **SmartRAG** is that you can interact with both **Website URL** and **Document** simultaneously, as demonstrated in the following demo:
 
 https://github.com/user-attachments/assets/e63c3fea-121f-44a1-b923-ab229c9a5236
 
