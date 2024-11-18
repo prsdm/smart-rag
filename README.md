@@ -3,7 +3,7 @@ SmartRAG is a simple and powerful tool that lets you interact with both website 
 
 The best feature of SmartRAG is that you can interact with both website URLs and documents simultaneously, as demonstrated in the following demo:
 
-![Demo](<public/demo.mp4>) 
+https://github.com/user-attachments/assets/e63c3fea-121f-44a1-b923-ab229c9a5236
 
 ## How It Works
 * The FastAPI server is integrated into the Next.js app under /api/.
